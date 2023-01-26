@@ -44,6 +44,6 @@ const schema = buildSchema(`
         updateProduct(input: ProductInput): Product
         deleteProduct(id: ID!): String
     }
-`)
+`);
 
 export default schema;
